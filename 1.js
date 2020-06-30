@@ -23,6 +23,7 @@
  * git remote add origin git@github.com:leywis/learngit.git 连接远程仓库
  * git pull origin master  拉取指定分支
  * git pull origin master --allow-unrelated-histories  允许pull未关联的远程仓库旧代码
+ * git push origin master 推送到指定的远程分支
  */
 
 // 1
