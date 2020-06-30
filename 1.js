@@ -7,6 +7,12 @@
  * @desc 2.查看状态
  * git status
  * git log --pretty=oneline
+ * 
+ * @desc 3.回退
+ * git reset --hard HEAD^
+ * git reset --hard HEAD~n
+ * git reset --hard id
+ * git reflog (查询操作记录)
  */
 
 // 1
