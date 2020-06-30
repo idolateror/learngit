@@ -1,2 +1,0 @@
-git add .  添加到缓存区
-git commit -m 'desc' 提交到本地仓库

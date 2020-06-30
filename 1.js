@@ -18,6 +18,11 @@
  * git checkout -- file  (回滚改动)
  * git checkout .  (回滚改动)
  * git reset HEAD （回滚add, 后加文件名回滚指定文件）
+ * 
+ * @desc 5.远程仓库
+ * git remote add origin git@github.com:leywis/learngit.git 连接远程仓库
+ * git pull origin master  拉取指定分支
+ * git pull origin master --allow-unrelated-histories  允许pull未关联的远程仓库旧代码
  */
 
 // 1
