@@ -29,8 +29,10 @@
  * 
  * @desc 分支管理
  * git branch 创建分支
- * git checkout 切换分支
+ * git checkout 切换分支(如果远程存在同名分支，直接拉取并且切换)
  * git checkout -b  创建并切换
- * // master上的改动
- * 
+ * git branch -d  删除分支
+ * git branch -D  强行删除分支
+ * git push origin --delete [branch_name]  删除远程分支
+ * git merge [branch_name] 合并分支到当前分支
  */
