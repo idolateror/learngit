@@ -6,6 +6,7 @@
 ###### @desc 2.查看状态
 ###### git status
 ###### git log --pretty=oneline
+###### git log --graph 查看合并视图
 ***
 ###### @desc 3.回退(同步跟新工作区，丢掉工作区未提交改动)
 ###### git reset --hard HEAD^
@@ -34,3 +35,14 @@
 ###### git branch -D  强行删除分支
 ###### git push origin --delete [branch_name]  删除远程分支
 ###### git merge [branch_name] 合并分支到当前分支
+***
+###### @desc 6.工作区暂存
+###### git stash 缓存进度，恢复工作区
+###### git stash pop 恢复的同时把stash内容也删了
+###### git stash list 工作区缓存列表
+###### git stash apply 工作区恢复
+###### git stash drop 情况缓存区
+***
+###### @desc 6.标签管理
+###### git tag 打tag
+###### git tag -d 删除tag
