@@ -24,13 +24,12 @@
  * git pull origin master  拉取指定分支
  * git pull origin master --allow-unrelated-histories  允许pull未关联的远程仓库旧代码
  * git push origin master 推送到指定的远程分支
+ * git push -u origin master (第一次远程仓库是空的时候，推送加-u)
+ * git clone 克隆远程仓
+ * 
+ * @desc 分支管理
+ * git branch 创建分支
+ * git checkout 切换分支
+ * git checkout -b  创建并切换
+ * 
  */
-
-// 1
-var text = 1
-// 添加第2条
-var a = 2
-// 添加第3条
-var b = 3
-// 添加第4填条
-var c =4
